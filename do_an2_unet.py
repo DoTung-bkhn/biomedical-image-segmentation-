@@ -46,8 +46,7 @@ x_train,y_train=load_image(train_dir)
 x_test,y_test=load_image(test_dir)
 x_val,y_val=load_image(val_dir)
 
-#new=ImageDataGenerator(zoom_range=(1.5,3),width_shift_range=0.1,height_shift_range=0.1)
-#new.flow()
+
 
 import tensorflow as tf 
 from tensorflow import keras
